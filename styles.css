@@ -1,0 +1,187 @@
+#gam-toggle-button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 8px 12px;
+    background-color: #232f3e;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    z-index: 10000;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+#gam-toggle-button:hover {
+    background-color: #1a2536;
+}
+
+#gam-control-ui {
+    position: fixed;
+    top: 50px;
+    right: 20px;
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 15px;
+    z-index: 9999;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+    display: none;
+}
+
+#gam-control-ui-header {
+    cursor: move;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    user-select: none;
+}
+
+#gam-control-ui h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #232f3e;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#gam-control-ui h4 {
+    color: #232f3e;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+#settings-section {
+    background-color: #f9f9f9;
+    border-radius: 3px;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #eee;
+}
+
+#settings-section div {
+    margin-bottom: 10px;
+}
+
+#settings-section label {
+    display: block;
+    margin-bottom: 5px;
+    color: #545b64;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+#settings-section input {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 13px;
+}
+
+#gam-control-ui button {
+    width: 100%;
+    margin: 5px 0;
+    padding: 8px 10px;
+    background-color: #ec7211;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+#gam-control-ui button:hover {
+    background-color: #eb5f07;
+}
+
+#saveSettings {
+    background-color: #008296 !important;
+}
+
+#saveSettings:hover {
+    background-color: #006b7d !important;
+}
+
+#pauseButton {
+    background-color: #879596 !important;
+}
+
+#pauseButton:hover {
+    background-color: #687b7c !important;
+}
+
+#stopButton {
+    background-color: #d13212 !important;
+}
+
+#stopButton:hover {
+    background-color: #b02a0c !important;
+}
+
+#resumeButton {
+    background-color: #1d8102 !important;
+}
+
+#resumeButton:hover {
+    background-color: #186c01 !important;
+}
+
+#progress-display {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f2f3f3;
+    border-radius: 3px;
+    font-size: 13px;
+    border: 1px solid #eee;
+}
+
+.status {
+    display: inline-block;
+    font-weight: 500;
+    padding: 3px 5px;
+    border-radius: 2px;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.paused {
+    background-color: #f2f3f3;
+    color: #687b7c;
+}
+
+.stopped {
+    background-color: #f8dbd0;
+    color: #d13212;
+}
+
+.resuming {
+    background-color: #ceeded;
+    color: #008296;
+}
+
+.refresh-countdown {
+    font-weight: bold;
+    color: #d13212;
+    margin-top: 5px;
+}
+
+#fileInput {
+    width: 100%;
+    padding: 8px 0;
+}
+
+#countdown-display {
+    text-align: center;
+    padding: 8px;
+    background-color: #f8dbd0;
+    border-radius: 3px;
+    margin: 10px 0;
+}
